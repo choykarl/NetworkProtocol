@@ -12,6 +12,8 @@
 		CBA9C63C1F18C71D008E2889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA9C63A1F18C71D008E2889 /* Main.storyboard */; };
 		CBA9C63E1F18C71D008E2889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA9C63D1F18C71D008E2889 /* Assets.xcassets */; };
 		CBA9C6411F18C71D008E2889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA9C63F1F18C71D008E2889 /* LaunchScreen.storyboard */; };
+		CBA9C6491F1A05D3008E2889 /* NetworkSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA9C6481F1A05D3008E2889 /* NetworkSender.swift */; };
+		CBC7A9C51F1A34CD00551A38 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC7A9C41F1A34CD00551A38 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CBA9C63D1F18C71D008E2889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBA9C6401F18C71D008E2889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBA9C6421F18C71D008E2889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA9C6481F1A05D3008E2889 /* NetworkSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkSender.swift; sourceTree = "<group>"; };
+		CBC7A9C41F1A34CD00551A38 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				CBA9C6361F18C71D008E2889 /* AppDelegate.swift */,
 				CBA9C6381F18C71D008E2889 /* ViewController.swift */,
+				CBA9C6481F1A05D3008E2889 /* NetworkSender.swift */,
+				CBC7A9C41F1A34CD00551A38 /* Model.swift */,
 				CBA9C63A1F18C71D008E2889 /* Main.storyboard */,
 				CBA9C63D1F18C71D008E2889 /* Assets.xcassets */,
 				CBA9C63F1F18C71D008E2889 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC7A9C51F1A34CD00551A38 /* Model.swift in Sources */,
+				CBA9C6491F1A05D3008E2889 /* NetworkSender.swift in Sources */,
 				CBA9C6391F18C71D008E2889 /* ViewController.swift in Sources */,
 				CBA9C6371F18C71D008E2889 /* AppDelegate.swift in Sources */,
 			);
@@ -266,7 +274,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.25344003-qq.netWorkPop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -278,7 +286,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.25344003-qq.netWorkPop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -301,6 +309,7 @@
 				CBA9C6471F18C71D008E2889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
